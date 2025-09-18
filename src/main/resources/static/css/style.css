@@ -8,7 +8,12 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
+    display: flex;   //dělá to že jsou řádky za sebou
+    flex-direction: column; //toto dělá pod sebou
+
+
+
+
     justify-content: center;
     align-items: center;
     min-height: 100vh;
